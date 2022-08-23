@@ -6,20 +6,13 @@ import './Popup.css';
 const Popup = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/pages/Popup/Popup.jsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React!
-        </a>
-      </header>
+      <div className="fb-url">
+        <div class="input-group mb-3">
+          <label>Fb Url</label>
+          <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" />
+          <button>ok</button>
+        </div>
+      </div>
     </div>
   );
 };

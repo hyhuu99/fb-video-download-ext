@@ -39,7 +39,24 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.fb-url {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  flex-wrap: nowrap;
+}
+
+.form-control {
+  margin-left: 1rem;
+  width: 50%;
 }
